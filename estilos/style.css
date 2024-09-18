@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* paletas de cores
+#F2E8DC cor de pela clara 
+#6F5142 cor de pela escura
+#D9A796 cor de bele padrão
+#733832 cor de pela vinho
+#D97E7E cor de pela rosa
+ */
+
+/* estilo geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+ }
+
+body{
+    background-color: white;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1200px;
+    margin: 0  13em ;
+
+}
+
+/* estilo do cabelho */
+header{
+    padding: 10px 4%;
+    background-color: #F2E8DC;
+}
+
+header>.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header a {
+    color: #5e2f2a;
+    text-decoration: none;
+}
+
+header nav ul{
+    list-style-type:none;
+
+}
+
+header nav ul  li {
+    display: inline-block;
+    padding: 0 25px;
+    font-size: 18px;
+}
+
+div.logo > img {
+    height: 85px;
+    width: 200px;
+}
+/* estilo da pagina home */
+
+section > div >.flex{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div>.txt-topo-site{
+  text-align: justify;
+}
+
+div>.txt-topo-site>h1{
+    font-size: 50px;
+    color: #5e2f2a;
+}
+
+div>.txt-topo-site>p{
+    color: #5e2f2a;
+}
+div > .bottão-consulta{
+    padding: 20px;
+}
+
+.btn-btn-primary-btn-lg{
+    color: #D97E7E ;
+}
