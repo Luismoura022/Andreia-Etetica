@@ -9,16 +9,27 @@
  */
 
 /* estilo geral */
+
+:root {
+    --fonte-tiltulos:"Playfair Display", serif;
+    --fonte-paragrafos:"Roboto", sans-serif;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family:"Roboto", sans-serif;
 
+ }
+ h1{
+    font-family: var(--fonte-tiltulos);
+ }
+ p{
+    font-family: var(--fonte-paragrafos);
  }
 
 body{
-    background-color: white;
+    background-color: rgba(231, 231, 231, 0.445);
     height: 100vh;
 }
 
@@ -53,14 +64,11 @@ header nav ul{
 
 header nav ul  li {
     display: inline-block;
-    padding: 0 25px;
-    font-size: 18px;
+    padding: 0 20px;
+    font-size: 15px;
 }
 
-div.logo > img {
-    height: 85px;
-    width: 200px;
-}
+
 /* estilo da pagina home */
 
 section > div >.flex{
@@ -76,13 +84,32 @@ div>.txt-topo-site{
 div>.txt-topo-site>h1{
     font-size: 50px;
     color: #5e2f2a;
+    height: 150px;
 }
 
 div>.txt-topo-site>p{
     color: #5e2f2a;
+    font-size: 19px;
+    
 }
-div > .bottão-consulta{
+div > .botão-consulta {
     padding: 20px;
+}
+
+#botão01 {
+    color: rgb(44, 43, 43);
+    font-size: 18px;
+    border-style: none;
+    height: 45px;
+    width: 190px;
+    border-radius: 15px;
+    background-color:#ee9c9c;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
+}
+
+#botão01:hover{
+    color: #4d2623;
+    background-color: #eedfe8; 
 }
 
 .btn-btn-primary-btn-lg{
